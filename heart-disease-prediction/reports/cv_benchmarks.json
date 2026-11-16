@@ -1,0 +1,38 @@
+[
+    {
+        "Model": "Logistic Regression",
+        "CV Recall Mean": 0.8372,
+        "CV Recall Std": 0.0556,
+        "CV ROC-AUC Mean": 0.9067,
+        "CV ROC-AUC Std": 0.011,
+        "CV F1 Mean": 0.8383,
+        "CV F1 Std": 0.026,
+        "CV Precision Mean": 0.8483,
+        "CV Accuracy Mean": 0.8511,
+        "Best Params": "{'classifier__C': 1.0, 'classifier__class_weight': 'balanced', 'classifier__penalty': 'l1'}"
+    },
+    {
+        "Model": "Random Forest",
+        "CV Recall Mean": 0.8008,
+        "CV Recall Std": 0.0853,
+        "CV ROC-AUC Mean": 0.9004,
+        "CV ROC-AUC Std": 0.0258,
+        "CV F1 Mean": 0.7926,
+        "CV F1 Std": 0.0401,
+        "CV Precision Mean": 0.7934,
+        "CV Accuracy Mean": 0.8096,
+        "Best Params": "{'classifier__n_estimators': 200, 'classifier__min_samples_split': 6, 'classifier__min_samples_leaf': 2, 'classifier__max_features': 'log2', 'classifier__max_depth': 4, 'classifier__class_weight': 'balanced_subsample'}"
+    },
+    {
+        "Model": "XGBoost",
+        "CV Recall Mean": 0.8644,
+        "CV Recall Std": 0.0416,
+        "CV ROC-AUC Mean": 0.8776,
+        "CV ROC-AUC Std": 0.0284,
+        "CV F1 Mean": 0.7776,
+        "CV F1 Std": 0.0183,
+        "CV Precision Mean": 0.7087,
+        "CV Accuracy Mean": 0.7728,
+        "Best Params": "{'classifier__subsample': 0.8, 'classifier__scale_pos_weight': 1.5, 'classifier__n_estimators': 50, 'classifier__max_depth': 4, 'classifier__learning_rate': 0.01, 'classifier__colsample_bytree': 0.6}"
+    }
+]

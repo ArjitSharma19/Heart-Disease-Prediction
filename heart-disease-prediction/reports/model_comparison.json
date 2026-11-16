@@ -1,0 +1,67 @@
+[
+    {
+        "Model": "Logistic Regression",
+        "ROC-AUC Mean": 0.9025,
+        "ROC-AUC Std": 0.0137,
+        "Recall Mean": 0.7834,
+        "Recall Std": 0.0459,
+        "Precision Mean": 0.8768,
+        "Precision Std": 0.0542,
+        "F1-Score Mean": 0.8245,
+        "F1-Score Std": 0.0069,
+        "Accuracy Mean": 0.8471,
+        "Accuracy Std": 0.01
+    },
+    {
+        "Model": "Random Forest",
+        "ROC-AUC Mean": 0.8951,
+        "ROC-AUC Std": 0.0337,
+        "Recall Mean": 0.7644,
+        "Recall Std": 0.0983,
+        "Precision Mean": 0.8075,
+        "Precision Std": 0.0534,
+        "F1-Score Mean": 0.78,
+        "F1-Score Std": 0.0498,
+        "Accuracy Mean": 0.8055,
+        "Accuracy Std": 0.0371
+    },
+    {
+        "Model": "Support Vector Machine",
+        "ROC-AUC Mean": 0.8884,
+        "ROC-AUC Std": 0.024,
+        "Recall Mean": 0.7648,
+        "Recall Std": 0.0797,
+        "Precision Mean": 0.8303,
+        "Precision Std": 0.0742,
+        "F1-Score Mean": 0.7893,
+        "F1-Score Std": 0.0271,
+        "Accuracy Mean": 0.8139,
+        "Accuracy Std": 0.0235
+    },
+    {
+        "Model": "K-Nearest Neighbors",
+        "ROC-AUC Mean": 0.8801,
+        "ROC-AUC Std": 0.0374,
+        "Recall Mean": 0.7656,
+        "Recall Std": 0.0348,
+        "Precision Mean": 0.827,
+        "Precision Std": 0.0317,
+        "F1-Score Mean": 0.7942,
+        "F1-Score Std": 0.0184,
+        "Accuracy Mean": 0.8181,
+        "Accuracy Std": 0.0162
+    },
+    {
+        "Model": "XGBoost",
+        "ROC-AUC Mean": 0.8784,
+        "ROC-AUC Std": 0.0224,
+        "Recall Mean": 0.7652,
+        "Recall Std": 0.0794,
+        "Precision Mean": 0.7858,
+        "Precision Std": 0.0411,
+        "F1-Score Mean": 0.771,
+        "F1-Score Std": 0.0294,
+        "Accuracy Mean": 0.7935,
+        "Accuracy Std": 0.0166
+    }
+]

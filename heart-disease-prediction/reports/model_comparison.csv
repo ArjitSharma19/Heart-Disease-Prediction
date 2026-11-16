@@ -1,0 +1,4 @@
+Model,Accuracy,Precision,Recall (Sensitivity),Specificity,F1-Score,ROC-AUC,PR-AUC,Matthews Corrcoef (MCC),True Positives,False Positives,True Negatives,False Negatives,CV_Recall_Stability,CV_ROC_AUC_Stability,CV_F1_Stability
+Logistic Regression,0.8525,0.8065,0.8929,0.8182,0.8475,0.9589,0.9546,0.7087,25,6,27,3,0.8372 +/- 0.0556,0.9067 +/- 0.0110,0.8383 +/- 0.0260
+Random Forest,0.8525,0.8065,0.8929,0.8182,0.8475,0.9545,0.9491,0.7087,25,6,27,3,0.8008 +/- 0.0853,0.9004 +/- 0.0258,0.7926 +/- 0.0401
+XGBoost,0.8361,0.75,0.9643,0.7273,0.8438,0.9351,0.9191,0.7007,27,9,24,1,0.8644 +/- 0.0416,0.8776 +/- 0.0284,0.7776 +/- 0.0183

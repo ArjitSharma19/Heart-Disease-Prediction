@@ -1,0 +1,4 @@
+Model,CV Recall Mean,CV Recall Std,CV ROC-AUC Mean,CV ROC-AUC Std,CV F1 Mean,CV F1 Std,CV Precision Mean,CV Accuracy Mean,Best Params
+Logistic Regression,0.8372,0.0556,0.9067,0.011,0.8383,0.026,0.8483,0.8511,"{'classifier__C': 1.0, 'classifier__class_weight': 'balanced', 'classifier__penalty': 'l1'}"
+Random Forest,0.8008,0.0853,0.9004,0.0258,0.7926,0.0401,0.7934,0.8096,"{'classifier__n_estimators': 200, 'classifier__min_samples_split': 6, 'classifier__min_samples_leaf': 2, 'classifier__max_features': 'log2', 'classifier__max_depth': 4, 'classifier__class_weight': 'balanced_subsample'}"
+XGBoost,0.8644,0.0416,0.8776,0.0284,0.7776,0.0183,0.7087,0.7728,"{'classifier__subsample': 0.8, 'classifier__scale_pos_weight': 1.5, 'classifier__n_estimators': 50, 'classifier__max_depth': 4, 'classifier__learning_rate': 0.01, 'classifier__colsample_bytree': 0.6}"
